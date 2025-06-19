@@ -1,0 +1,21 @@
+# pyproject.toml — ملف التعريف الرسمي لتطبيق "الأصول" (Assets)
+[project]
+name            = "assets"                      # اسم الحزمة (يظل ثابتًا)
+version         = "1.0.0"                       # رقم الإصدار الأوّلي
+description     = "Azab Construction – Asset Management Module"
+authors         = [{ name = "Al-azab Construction", email = "support@al-azab.co" }]
+readme          = "README.md"
+license         = { text = "MIT" }
+requires-python = ">=3.10"
+
+[tool.frappe.app]
+app_name        = "assets"                      # يجب أن يطابق اسم المجلد داخل src/
+app_title       = "Azab Assets"                 # يظهر في الـ UI
+app_publisher   = "Al-azab Construction"
+app_description = "تطبيق إدارة الأصول والمعدات لشركة العزب؛ يتابع المخزون، الصيانة، والإهلاك."
+app_icon        = "octicon octicon-package"     # أيقونة من Octicons أو FontAwesome
+app_color       = "#ffa850"                     # اللون الرسمي
+app_email       = "support@al-azab.co"
+app_license     = "MIT"
+app_version     = "1.0.0"
+required_apps   = ["frappe", "erpnext"]         # يعتمد على Frappe + ERPNext
