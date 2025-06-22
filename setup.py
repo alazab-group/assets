@@ -4,7 +4,7 @@ with open("requirements.txt") as f:
 	install_requires = f.read().strip().split("\n")
 
 # get version from __version__ variable in assets/__init__.py
-from alazab_assets import __version__ as version
+from assets import __version__ as version
 
 setup(
 	name="assets",
