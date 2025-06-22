@@ -1,0 +1,8 @@
+{
+  "logo": "https://raw.githubusercontent.com/alazab-group/assets/main/img/logo/logo-alazab.png",
+  "mail_logo": "https://raw.githubusercontent.com/alazab-group/assets/main/img/logo/logo-mail.png",
+  "icons": {
+    "plumbing": "https://raw.githubusercontent.com/alazab-group/assets/main/img/icons/plumbing.png",
+    "electric": "https://raw.githubusercontent.com/alazab-group/assets/main/img/icons/electric.png"
+  }
+}
