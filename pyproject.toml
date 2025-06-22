@@ -1,0 +1,20 @@
+[project]
+name = "alazab-assets"
+version = "1.0.0"
+description = "Assets for Alazab Construction: logos, icons, and media files"
+authors = [
+    { name="Mohamed Azab", email="support@al-azab.co" }
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+
+[tool.setuptools]
+packages = ["scripts"]
+
+[project.optional-dependencies]
+dev = ["pillow", "requests"]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
