@@ -1,5 +1,5 @@
 [project]
-name = "alazab-assets"
+name = "assets"
 version = "1.0.0"
 description = "Assets for Alazab Construction: logos, icons, and media files"
 authors = [
